@@ -1,5 +1,6 @@
 import { Building2, Leaf, Sun } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import pvAnlagenImage from "@/assets/pv-anlagen.png";
 
 const MarketPositioning = () => {
   const features = [
@@ -66,6 +67,22 @@ const MarketPositioning = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* PV-Anlagen Image Section */}
+        <div className="mt-20">
+          <div className="relative overflow-hidden rounded-lg">
+            <img 
+              src={pvAnlagenImage} 
+              alt="Photovoltaik-Anlagen für nachhaltige Energiegewinnung" 
+              className="w-full h-auto object-cover"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
+              <p className="text-white text-lg font-semibold">
+                Photovoltaik-Integration für maximale Rendite und Nachhaltigkeit
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
