@@ -11,19 +11,19 @@ const Footer = () => {
             <div className="space-y-2 text-sm">
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:kontakt@grafbernstorff.de" className="hover:text-primary transition-colors">
-                  kontakt@grafbernstorff.de
+                <a href="mailto:info@grafbernstorff-consulting.de" className="hover:text-primary transition-colors">
+                  info@grafbernstorff-consulting.de
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:+4935112345678" className="hover:text-primary transition-colors">
-                  +49 351 123 456 78
+                <a href="tel:+491638324762" className="hover:text-primary transition-colors">
+                  +49 163 8324762
                 </a>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Dresden, Deutschland</span>
+                <span>Rohlstorf, Deutschland</span>
               </div>
             </div>
           </div>

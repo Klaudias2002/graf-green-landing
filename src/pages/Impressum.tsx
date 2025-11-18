@@ -14,17 +14,16 @@ const Impressum = () => {
               <h2 className="text-2xl font-semibold text-foreground mb-4">Angaben gemäß § 5 TMG</h2>
               <p>
                 Graf Bernstorff Consulting<br />
-                Moritz Graf<br />
-                Musterstraße 123<br />
-                01099 Dresden
+                Inhaber: Moritz Graf v. Bernstorff<br />
+                Rohlstorf, Deutschland
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-semibold text-foreground mb-4">Kontakt</h2>
               <p>
-                Telefon: +49 351 123 456 78<br />
-                E-Mail: kontakt@grafbernstorff.de
+                Telefon: +49 163 8324762<br />
+                E-Mail: info@grafbernstorff-consulting.de
               </p>
             </section>
 
