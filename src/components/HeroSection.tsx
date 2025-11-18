@@ -1,22 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Award } from "lucide-react";
 import heroImage from "@/assets/hero-dresden.jpg";
-
 const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
-    element?.scrollIntoView({ behavior: "smooth" });
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
   };
-
-  return (
-    <section className="relative min-h-[90vh] flex items-center px-6 overflow-hidden">
+  return <section className="relative min-h-[90vh] flex items-center px-6 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroImage} 
-          alt="Moderne Immobilien in Dresden" 
-          className="w-full h-full object-cover"
-        />
+        <img src={heroImage} alt="Moderne Immobilien in Dresden" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/50" />
       </div>
 
@@ -54,21 +49,10 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button 
-              size="lg"
-              onClick={scrollToContact}
-              className="bg-primary hover:bg-primary-hover text-primary-foreground font-semibold text-lg px-8 py-6 transition-all duration-300 hover:shadow-[var(--shadow-lift)] hover:scale-105"
-            >
+            <Button size="lg" onClick={scrollToContact} className="bg-primary hover:bg-primary-hover text-primary-foreground font-semibold text-lg px-8 py-6 transition-all duration-300 hover:shadow-[var(--shadow-lift)] hover:scale-105">
               Kostenlose Beratung buchen
             </Button>
-            <Button 
-              size="lg"
-              variant="outline"
-              onClick={scrollToContact}
-              className="border-2 border-white/30 text-white hover:bg-white/10 hover:border-white backdrop-blur-sm font-semibold text-lg px-8 py-6 transition-all duration-300"
-            >
-              Mehr erfahren
-            </Button>
+            
           </div>
 
           <div className="flex flex-wrap items-center gap-6 pt-8">
@@ -83,8 +67,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
