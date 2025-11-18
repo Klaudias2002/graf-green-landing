@@ -37,21 +37,21 @@ const MarketPositioning = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-muted">
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-muted">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-12 animate-fade-in">
+        <div className="text-center mb-8 sm:mb-10 lg:mb-12 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Warum Dresden & Silicon Saxony die <span className="text-primary">TOP-LAGE</span> für Immobilienanlage ist
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {features.map((feature, index) => (
-            <Card 
+            <Card
               key={index}
               className="group hover:shadow-[var(--shadow-lift)] transition-all duration-300 hover:-translate-y-2 border-l-4 border-l-transparent hover:border-l-primary bg-card"
             >
-              <CardContent className="p-6 space-y-4">
+              <CardContent className="p-5 sm:p-6 space-y-4">
                 <div className="w-12 h-12 bg-primary-light rounded-lg flex items-center justify-center group-hover:bg-primary transition-colors duration-300">
                   <feature.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
                 </div>
@@ -70,7 +70,7 @@ const MarketPositioning = () => {
         </div>
 
         {/* PV-Anlagen Image Section */}
-        <div className="mt-20">
+        <div className="mt-12 sm:mt-16 lg:mt-20">
           <div className="relative overflow-hidden rounded-lg">
             <img 
               src={pvAnlagenImage} 

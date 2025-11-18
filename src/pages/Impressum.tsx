@@ -5,60 +5,60 @@ const Impressum = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 pb-12 px-6">
+      <main className="flex-1 py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="text-4xl font-bold text-foreground mb-8">Impressum</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 sm:mb-8">Impressum</h1>
           
-          <div className="space-y-8 text-foreground/80">
+          <div className="space-y-6 sm:space-y-8 text-sm sm:text-base text-foreground/80">
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Angaben gemäß § 5 TMG</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Angaben gemäß § 5 TMG</h2>
               <p>
                 Graf Bernstorff Consulting<br />
                 Inhaber: Moritz Graf v. Bernstorff<br />
-                Rohlstorf, Deutschland
+                Christianenthal 1<br />
+                23821 Rohlstorf<br />
+                Deutschland
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Kontakt</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Kontakt</h2>
               <p>
-                Telefon: +49 163 8324762<br />
-                E-Mail: info@grafbernstorff-consulting.de
+                Telefon: +49 163 832 47 62<br />
+                E-Mail: <a href="mailto:moritz@grafbernstorff-consulting.de" className="text-primary hover:underline">moritz@grafbernstorff-consulting.de</a>
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Umsatzsteuer-ID</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Umsatzsteuer-ID</h2>
               <p>
                 Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-                DE123456789
+                DE287112990
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Berufsbezeichnung</h2>
               <p>
-                Berufsbezeichnung: Immobilien-Kapitalanlageberater<br />
-                Zuständige Kammer: IHK Dresden<br />
+                Berufsbezeichnung: Selbstständiger Handelsmakler<br />
                 Verliehen in: Deutschland
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Angaben zur Berufshaftpflichtversicherung</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Haftungshinweis</h2>
               <p>
-                Name und Sitz des Versicherers:<br />
-                Muster Versicherung AG<br />
-                Versicherungsstraße 1<br />
-                10115 Berlin
+                Aus Rechts- und Sicherheitsgründen ist die auf dieser Website gegebene Information nicht rechtsverbindlich.
+                Eine rechtsverbindliche Bestätigung reichen wir Ihnen gerne auf Anforderung in schriftlicher Form nach.
               </p>
               <p className="mt-2">
-                Geltungsraum der Versicherung: Deutschland
+                Beachten Sie bitte, dass jede Form der unautorisierten Nutzung, Veröffentlichung, Vervielfältigung oder
+                Weitergabe des Inhalts dieser Website nicht gestattet ist.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">EU-Streitschlichtung</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">EU-Streitschlichtung</h2>
               <p>
                 Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:{" "}
                 <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
@@ -70,7 +70,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Verbraucher­streit­beilegung/Universal­schlichtungs­stelle</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Verbraucher­streit­beilegung/Universal­schlichtungs­stelle</h2>
               <p>
                 Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer 
                 Verbraucherschlichtungsstelle teilzunehmen.
@@ -78,7 +78,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Haftung für Inhalte</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Haftung für Inhalte</h2>
               <p>
                 Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den 
                 allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht 
@@ -94,7 +94,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Haftung für Links</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Haftung für Links</h2>
               <p>
                 Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. 
                 Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der 
@@ -105,7 +105,7 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">Urheberrecht</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">Urheberrecht</h2>
               <p>
                 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen 
                 Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der 

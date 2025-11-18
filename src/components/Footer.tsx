@@ -1,33 +1,10 @@
-import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-foreground text-background py-12 px-6">
+    <footer className="bg-foreground text-background py-10 sm:py-12 px-4 sm:px-6">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
-          <div className="space-y-4">
-            <h3 className="text-lg font-bold">Kontakt</h3>
-            <div className="space-y-2 text-sm">
-              <div className="flex items-center gap-2">
-                <Mail className="w-4 h-4 text-primary" />
-                <a href="mailto:info@grafbernstorff-consulting.de" className="hover:text-primary transition-colors">
-                  info@grafbernstorff-consulting.de
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-primary" />
-                <a href="tel:+491638324762" className="hover:text-primary transition-colors">
-                  +49 163 8324762
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-primary" />
-                <span>Rohlstorf, Deutschland</span>
-              </div>
-            </div>
-          </div>
-
+        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Rechtliches</h3>
             <div className="space-y-2 text-sm">

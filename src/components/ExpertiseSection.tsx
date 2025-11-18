@@ -3,17 +3,17 @@ import moritzGrafImage from "@/assets/moritz-graf.jpg";
 
 const ExpertiseSection = () => {
   return (
-    <section className="py-20 px-6 bg-background">
+    <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 sm:mb-12 lg:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Ihr Experte für <span className="text-primary">nachhaltige Kapitalanlage</span>
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Image */}
-          <div className="relative">
+          <div className="relative order-2 md:order-1">
             <div className="relative overflow-hidden rounded-lg">
               <img 
                 src={moritzGrafImage} 
@@ -25,7 +25,7 @@ const ExpertiseSection = () => {
           </div>
 
           {/* Bio Text & Trust Signals */}
-          <div className="space-y-6">
+          <div className="space-y-6 order-1 md:order-2">
             <div className="space-y-4">
               <p className="text-lg text-foreground/90 leading-relaxed">
                 Moritz Graf ist Immobilien Kapitalanlageberater mit spezialisierten Kenntnissen in KfW 40, 

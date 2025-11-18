@@ -5,14 +5,14 @@ const Datenschutz = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 pb-12 px-6">
+      <main className="flex-1 py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="container mx-auto max-w-4xl">
-          <h1 className="text-4xl font-bold text-foreground mb-8">Datenschutzerklärung</h1>
-          
-          <div className="space-y-8 text-foreground/80">
+          <h1 className="text-3xl sm:text-4xl font-bold text-foreground mb-6 sm:mb-8">Datenschutzerklärung</h1>
+
+          <div className="space-y-6 sm:space-y-8 text-sm sm:text-base text-foreground/80">
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">1. Datenschutz auf einen Blick</h2>
-              <h3 className="text-xl font-semibold text-foreground mb-2">Allgemeine Hinweise</h3>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">1. Datenschutz auf einen Blick</h2>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2">Allgemeine Hinweise</h3>
               <p>
                 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten 
                 passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie 
@@ -22,8 +22,8 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">2. Datenerfassung auf dieser Website</h2>
-              <h3 className="text-xl font-semibold text-foreground mb-2">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h3>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">2. Datenerfassung auf dieser Website</h2>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2">Wer ist verantwortlich für die Datenerfassung auf dieser Website?</h3>
               <p>
                 Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten 
                 können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle" in dieser Datenschutzerklärung entnehmen.
@@ -42,8 +42,8 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">3. Allgemeine Hinweise und Pflichtinformationen</h2>
-              <h3 className="text-xl font-semibold text-foreground mb-2">Datenschutz</h3>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">3. Allgemeine Hinweise und Pflichtinformationen</h2>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2">Datenschutz</h3>
               <p>
                 Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre 
                 personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie 
@@ -58,29 +58,30 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">4. Hinweis zur verantwortlichen Stelle</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">4. Hinweis zur verantwortlichen Stelle</h2>
               <p>
                 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
               </p>
               <p className="mt-2">
                 Graf Bernstorff Consulting<br />
-                Moritz Graf<br />
-                Musterstraße 123<br />
-                01099 Dresden
+                Inhaber: Moritz Graf v. Bernstorff<br />
+                Christianenthal 1<br />
+                23821 Rohlstorf<br />
+                Deutschland
               </p>
               <p className="mt-2">
-                Telefon: +49 351 123 456 78<br />
-                E-Mail: kontakt@grafbernstorff.de
+                Telefon: <a href="tel:+491638324762" className="text-primary hover:underline">+49 163 832 47 62</a><br />
+                E-Mail: <a href="mailto:moritz@grafbernstorff-consulting.de" className="text-primary hover:underline">moritz@grafbernstorff-consulting.de</a>
               </p>
               <p className="mt-2">
-                Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen 
-                über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) 
+                Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen
+                über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.)
                 entscheidet.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">5. Speicherdauer</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">5. Speicherdauer</h2>
               <p>
                 Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, verbleiben 
                 Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt. Wenn Sie ein 
@@ -92,7 +93,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">6. Ihre Rechte</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">6. Ihre Rechte</h2>
               <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche 
               Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck 
               der Datenverarbeitung und ggf. ein Recht auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu 
@@ -100,7 +101,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">7. Recht auf Beschwerde bei einer Aufsichtsbehörde</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">7. Recht auf Beschwerde bei einer Aufsichtsbehörde</h2>
               <p>
                 Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer 
                 Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes 
@@ -110,7 +111,7 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">8. SSL- bzw. TLS-Verschlüsselung</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">8. SSL- bzw. TLS-Verschlüsselung</h2>
               <p>
                 Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum 
                 Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL- bzw. 
@@ -120,9 +121,9 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">9. Server-Log-Dateien</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">9. Server-Log-Dateien</h2>
               <p>
-                Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, 
+                Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien,
                 die Ihr Browser automatisch an uns übermittelt. Dies sind:
               </p>
               <ul className="list-disc list-inside mt-2 space-y-1">
@@ -139,7 +140,46 @@ const Datenschutz = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">10. Kontaktformular</h2>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">10. Hosting</h2>
+              <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2">Externes Hosting</h3>
+              <p>
+                Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden,
+                werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v.a. um IP-Adressen, Kontaktanfragen,
+                Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten,
+                die über eine Website generiert werden, handeln.
+              </p>
+              <p className="mt-2">
+                Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren potenziellen und bestehenden
+                Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im Interesse einer sicheren, schnellen und effizienten Bereitstellung
+                unseres Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f DSGVO).
+              </p>
+              <p className="mt-2">
+                Unser Hoster wird Ihre Daten nur insoweit verarbeiten, wie dies zur Erfüllung seiner Leistungspflichten
+                erforderlich ist und unsere Weisungen in Bezug auf diese Daten befolgen.
+              </p>
+              <p className="mt-2 font-semibold">
+                Wir setzen folgenden Hoster ein:
+              </p>
+              <p className="mt-2">
+                Variable Object Assignment (Statichost)<br />
+                c/o Knackeriet<br />
+                Svartmangatan 9<br />
+                11129 Stockholm<br />
+                Schweden<br />
+                <br />
+                Schwedische Registrierungsnummer: 860201-7611<br />
+                USt-ID: SE860201761101<br />
+                E-Mail: <a href="mailto:team@statichost.eu" className="text-primary hover:underline">team@statichost.eu</a><br />
+                Website: <a href="https://www.statichost.eu" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">statichost.eu</a>
+              </p>
+              <p className="mt-2">
+                Statichost ist ein DSGVO-konformer europäischer Hosting-Anbieter mit Servern in Europa. Die Datenverarbeitung
+                erfolgt ausschließlich innerhalb der EU und unterliegt damit den europäischen Datenschutzbestimmungen.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-xl sm:text-2xl font-semibold text-foreground mb-3 sm:mb-4">11. Kontaktformular</h2>
               <p>
                 Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular 
                 inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall 
