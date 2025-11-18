@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { TrendingUp, Award } from "lucide-react";
 import heroImage from "@/assets/hero-dresden.jpg";
+import logo from "@/assets/logo.png";
+
 const HeroSection = () => {
   const scrollToContact = () => {
     const element = document.getElementById("contact");
@@ -8,7 +10,7 @@ const HeroSection = () => {
       behavior: "smooth"
     });
   };
-  return <section className="relative min-h-[90vh] flex items-center px-6 overflow-hidden">
+  return <section className="relative min-h-[90vh] flex items-center px-6 overflow-hidden pt-8">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Moderne Immobilien in Dresden" className="w-full h-full object-cover" />
@@ -18,6 +20,11 @@ const HeroSection = () => {
       {/* Content */}
       <div className="container mx-auto max-w-6xl relative z-10">
         <div className="max-w-3xl space-y-8 animate-fade-in">
+          {/* Logo */}
+          <div className="mb-6">
+            <img src={logo} alt="Graf Bernstorff Consulting" className="h-20 w-auto" />
+          </div>
+          
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Nachhaltiger Vermögensaufbau durch{" "}
