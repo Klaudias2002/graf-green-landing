@@ -6,20 +6,16 @@ import ServicesSection from "@/components/ServicesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       <HeroSection />
       <MarketPositioning />
       <ExpertiseSection />
       <ServicesSection />
-      <TestimonialsSection />
-      <ContactSection />
+      
+      
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
